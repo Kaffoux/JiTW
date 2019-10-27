@@ -1,0 +1,23 @@
+.navigation a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 25px;
+    margin: 10px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.blue {
+    color: hsl(192, 100%, 60%);
+}
+.green {
+    color: hsl(115, 80%, 60%);
+}
+
+.raspberry {
+    color: hsl(327, 88%, 53%);
+}
