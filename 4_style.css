@@ -1,0 +1,17 @@
+.navigation a {
+    text-decoration: none;
+}
+
+.content h1 {
+    color: hsl(24, 92%, 55%);
+    
+}
+
+div.image{
+    width: 50%;      
+    margin: 20px auto;          
+}
+
+div.image img {
+    width: 100%;
+}
