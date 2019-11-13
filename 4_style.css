@@ -1,17 +1,31 @@
-.navigation a {
-    text-decoration: none;
-}
-
+/* CONTENT */
 .content h1 {
-    color: hsl(24, 92%, 55%);
-    
+    color: orange;
 }
 
-div.image{
-    width: 50%;      
-    margin: 20px auto;          
+.content p {
+    padding: 25px 0;
+}
+div.pictures {
+    position: relative;
+    height: 200px;
 }
 
-div.image img {
-    width: 100%;
+.pictures > img {
+    height: 100%;
+    top: 0;
+}
+
+.image1 {
+    position: absolute;
+    left:0;
+}
+
+.image2 {
+    position: absolute;
+    right: 0;
+}
+
+.content .validator p{
+    padding: 0;
 }

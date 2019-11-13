@@ -1,23 +1,43 @@
-.navigation a {
-    text-decoration: none;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-button {
-    font-size: 25px;
-    margin: 10px;
+h1 {
+    font-size: 60px;
+    letter-spacing: 4px;
 }
 
-button a {
-    text-decoration: none;
+h2 {
+    font-size: 10px;
+    color: red;
 }
 
-.blue {
-    color: hsl(192, 100%, 60%);
-}
-.green {
-    color: hsl(115, 80%, 60%);
+h1.blue {
+    color: blue;
 }
 
-.raspberry {
+h1.green {
+    color: green;
+}
+
+h1.raspberry {
     color: hsl(327, 88%, 53%);
 }
+
+/* CONTENT */
+.content h1 {
+    font-size: 35px;
+    padding: 10px 0;
+}
+
+.content h2 {
+    font-size: 25px;
+    padding: 8px 0;
+}
+
+.content p {
+    padding: 5px 0;
+}
+
