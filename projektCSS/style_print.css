@@ -1,0 +1,47 @@
+@media print {
+    h1, h2{
+        color: black !important;
+    }
+    .navigation {
+        display: none;
+    }
+    .content {
+        box-sizing: border-box;
+        width: 100%;
+        left: 0;
+    }
+
+    div.pictures {
+        min-height: 20vh;
+    }
+    
+    .pictures > img {
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+    }
+
+    .content table {
+        border: 4px ridge black;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

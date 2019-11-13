@@ -1,0 +1,27 @@
+/* CONTENT */
+.content h1 {
+    color: orange;
+}
+
+.content p {
+    padding: 15px 0;
+}
+div.pictures {
+    position: relative;
+    height: 200px;
+}
+
+.pictures > img {
+    height: 100%;
+    top: 0;
+}
+
+.image1 {
+    position: absolute;
+    left:0;
+}
+
+.image2 {
+    position: absolute;
+    right: 0;
+}
