@@ -4,7 +4,7 @@
 }
 
 .content p {
-    padding: 15px 0;
+    padding: 25px 0;
 }
 div.pictures {
     position: relative;
@@ -24,4 +24,8 @@ div.pictures {
 .image2 {
     position: absolute;
     right: 0;
+}
+
+.content .validator p{
+    padding: 0;
 }

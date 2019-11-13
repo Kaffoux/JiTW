@@ -26,9 +26,6 @@ h1.raspberry {
     color: hsl(327, 88%, 53%);
 }
 
-p {
-    text-indent: 40px;
-}
 /* CONTENT */
 .content h1 {
     font-size: 35px;

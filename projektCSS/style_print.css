@@ -15,17 +15,20 @@
         min-height: 20vh;
     }
     
-    .pictures > img {
+    /* .pictures > img {
         filter: grayscale(1);
         -webkit-filter: grayscale(1);
-    }
+    } */
 
     .content table {
         border: 4px ridge black;
     }
     
 
-
+    img {
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+    }
 
 
 

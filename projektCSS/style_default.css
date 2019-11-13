@@ -23,26 +23,24 @@ body {
 /* MENU */
 .navigation {
     width: 300px;
-    background-color:hsla(327, 88%, 87%, 0.8);
     position: fixed;
     margin: 20px 10px 10px 10px;
+    background-color: hsla(327, 88%, 87%, 0.8);
 }
 
 .navigation h1 {
     font-size: 20px;
     letter-spacing: 1px;
     text-align: center;
-    padding: 20px 0 0 0;
+    padding: 10px 0;
 }
 
 .navigation ul {
     list-style: none;
-    margin-bottom: 100px;
 }
 
 .navigation li {
-    margin: 40px 0;
-
+    margin: 15px 0;
 }
 
 .navigation a {
@@ -71,7 +69,7 @@ body {
     position: absolute;
     left: 300px;
     margin: 20px;
-    padding: 10px;
+    padding: 30px;
     margin-bottom: 2000px;
 }
 
@@ -79,8 +77,40 @@ body {
     padding: 10px 0;
 }
 
-.validator {
-    position: absolute;
-    top: 120px;
-    right: 20px;
+p {
+    text-indent: 40px;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+@media all and (max-width: 800px) {
+    .navigation .menu1 {
+        margin-bottom: 10px;
+    }
+    
+    .navigation ul {
+        list-style: none;
+    }
+    
+    .navigation .menu1:hover ul > li {
+		display: block;
+	}
+	
+	.navigation .menu1 ul > li {
+		display: none;
+	}
+   
+   	.navigation .menu1 ul > li > a:hover {
+	 	background-color: silver;
+       }
+       
+    .navigation .menu2:hover ul > li {
+		display: block;
+	}
+	
+	.navigation .menu2 ul > li {
+		display: none;
+	}
 }
