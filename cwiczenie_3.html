@@ -5,22 +5,29 @@
 <head>
     <title>Tytuł: ćwiczenie 3, podstawy HTML</title>
     <meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8" />
+
     <link rel="stylesheet" href="3_style.css"/>
+    <link rel="stylesheet" href="style_default.css"/>
+    <link rel="stylesheet" href="style_print.css" media="print"/>
+    <link rel="Alternate stylesheet" href="style_alternate.css" title="Inny1"/>
 </head>
 
 <body>
+    <div class="title">
+        <h1>Ćwiczenie 3</h1>
+    </div>  
     <div class="navigation">
             <h1>Pozostałe ćwiczenia: </h1>
             <ul>
-                <li><a href="https://kaffoux.github.io/JiTW/cwiczenie_1.html">Ćwiczenie 1</a></li>
-                <li><a href="https://kaffoux.github.io/JiTW/cwiczenie_2.html">Ćwiczenie 2</a></li>
-                <li><a href="https://kaffoux.github.io/JiTW/cwiczenie_4.html">Ćwiczenie 4</a></li>
+                <li><a href="http://127.0.0.1:5500/cwiczenie_1.html">Ćwiczenie 1</a></li>
+                <li><a href="http://127.0.0.1:5500/cwiczenie_2.html">Ćwiczenie 2</a></li>
+                <li><a href="http://127.0.0.1:5500/cwiczenie_4.html">Ćwiczenie 4</a></li>
             </ul>
         </div>
 
     <div class="content">
-        <h1>Tablica:</h1>
-        <div class="table">
+        <div class="table" id="table">
+            <h1>Tablica:</h1>
             <table border="1">
                 <colgroup>
                     <col/><col align="char" char="." />
@@ -53,35 +60,35 @@
             </table>
         </div>
 
-        <div class="lists">
+        <div class="list" id="list">
             <h1>Lista:</h1>
             <ol>
                 <li>Element</li>
                 <li>Element</li>
                 <li>Element
-                    <ul>
+                    <ol>
                         <li>drugi poziom</li>
                         <li>drugi poziom</li>
-                    </ul>
+                    </ol>
                 </li>
                 <li>Element
-                    <ul>
+                    <ol>
                         <li>Numeracja drugiego poziomu</li>
                         <li>Numeracja drugiego poziomu
-                            <ul>
+                            <ol>
                                 <li>Trzeci</li>
                                 <li>Trzeci</li>
-                            </ul>
+                            </ol>
                         </li>
                         <li>Numeracja drugiego poziomu</li>
-                    </ul>
+                    </ol>
                 </li>
                 <li>...</li>
             </ol>
 
         </div>
 
-        <div class="definitions">
+        <div class="definitions" id="definitions">
             <h1>Definicje:</h1>
             <dl>
                 <dt>JiTW</dt>
@@ -94,14 +101,21 @@
                 <dd>Architektury Komputerów</dd>
             </dl>
         </div>
-    </div>
+    
 
-    <div class="validator">
-        <p>
-            <a href="http://validator.w3.org/check?uri=referer">
-                <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
-            </a>
-        </p>
+        <div class="validator">
+            <p>
+                <a href="http://validator.w3.org/check?uri=referer"><img
+                  src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+            </p>
+            <p>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Poprawny CSS!" />
+                </a>
+            </p>            
+        </div>
     </div>
 </body>
 </html>
